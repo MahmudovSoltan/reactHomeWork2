@@ -1,0 +1,36 @@
+.basket_container{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 30px 61px;
+}
+.empty_basket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    width: 100%;
+}
+.basket_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55 65 81);
+    color: white;
+}
+.basket_header div{
+    padding: 20px 0;
+    font-weight: bold;
+    font-size:24px;
+}
+.basket_header button{
+    padding: 8px 14px;
+    background-color: red;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
